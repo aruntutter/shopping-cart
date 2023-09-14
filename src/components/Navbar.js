@@ -8,7 +8,7 @@ const Navbar = ({ size }) => {
         <span className="title">Shopping cart</span>
         <div className="cart">
           <span>
-            <i class="fa-solid fa-cart-plus"></i>
+            <i className="fa-solid fa-cart-plus"></i>
           </span>
           <span>{size}</span>
         </div>
