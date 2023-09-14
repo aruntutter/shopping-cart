@@ -3,7 +3,7 @@
 .navbar {
   background-color: #333;
   color: #fff;
-  padding: 20px 25px;
+  padding: 20px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,4 +15,30 @@
 
 .cart {
   font-size: 24px;
+}
+
+.cart span:last-child {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+@media (max-width: 540px) {
+  .navbar {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .cart {
+    font-size: 18px;
+  }
+
+  .cart span:last-child {
+    font-size: 10px;
+  }
 }
