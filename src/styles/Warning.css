@@ -1,0 +1,25 @@
+/* Warning.css */
+
+.warning {
+  background-color: #ffcccb;
+  color: #721c24;
+  padding: 10px 20px;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .warning {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+}
