@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/Cards.css";
 
 const Cards = ({ item }) => {
   const { title, price, img } = item;
