@@ -34,13 +34,17 @@ const Cart = ({ cart, setCart, handleChange }) => {
           </div>
           <div className="cart-actions">
             <div className="cart-buttons">
-              <button onClick={() => handleChange(item, +1)}>+</button>
-              <button>{item.amount}</button>
-              <button onClick={() => handleChange(item, -1)}>-</button>
+              <button type="button" onClick={() => handleChange(item, +1)}>
+                +
+              </button>
+              <button type="button">{item.amount}</button>
+              <button type="button" onClick={() => handleChange(item, -1)}>
+                -
+              </button>
             </div>
             <div className="cart-price-delete-btn">
               <p>$ {item.price}</p>
-              <button onClick={() => handleRemove(item.id)}>
+              <button type="button" onClick={() => handleRemove(item.id)}>
                 <i class="fa-regular fa-trash-can"></i>
               </button>
             </div>
