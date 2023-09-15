@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/Cart.css";
 
 const Cart = ({ cart, setCart, handleChange }) => {
@@ -19,7 +18,11 @@ const Cart = ({ cart, setCart, handleChange }) => {
 
   useEffect(() => {
     handlePrice();
-  });
+  }, [cart]); // Make sure to recompute the price whenever the cart changes
+
+  if (cart.length === 0) {
+    return <div className="empty-cart">Your cart is Empty!</div>;
+  }
 
   return (
     <article>

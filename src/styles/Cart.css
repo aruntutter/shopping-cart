@@ -1,5 +1,13 @@
 /* Cart.css */
 
+.empty-cart {
+  font-size: 1.5rem;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}
+
 article {
   width: 60%;
   margin: auto;
@@ -131,6 +139,12 @@ article {
 /* Media Queries for Responsive Design */
 
 @media (max-width: 768px) {
+
+  .empty-cart {
+    font-size: 1.2rem;
+    margin-top: 100px;
+  }
+
   article {
     width: 100%;
     margin: auto;
