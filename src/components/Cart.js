@@ -18,7 +18,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
 
   useEffect(() => {
     handlePrice();
-  }, [cart]); // Make sure to recompute the price whenever the cart changes
+  }, [cart, handlePrice]);
 
   if (cart.length === 0) {
     return <div className="empty-cart">Your cart is Empty!</div>;
@@ -29,7 +29,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
       {cart?.map((item) => (
         <div className="cart-box" key={item.id}>
           <div className="cart-img">
-            <img src={item.img} alt="Image" />
+            <img src={item.img} alt={item.title} />
             <p>{item.title}</p>
           </div>
           <div className="cart-actions">
