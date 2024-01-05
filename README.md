@@ -14,8 +14,8 @@
 
 ## Links
 
-- Solution URL: [GitHub Repository]()
-- Live Demo: [Live Demo URL]()
+- Solution URL: [GitHub Repository](https://github.com/aruntutter/shopping-cart)
+- Live Demo: [Live Demo URL](https://creative-sundae-e9b64b.netlify.app/)
 
 ## Description
 
@@ -27,7 +27,7 @@ The Shopping Cart project is a React-based application that enables users to add
 
 ## Demo
 
-Explore the live demo: [Here]()
+Explore the live demo: [Here](https://creative-sundae-e9b64b.netlify.app/)
 
 ## Features
 
@@ -47,7 +47,7 @@ Explore the live demo: [Here]()
 
 To use the shopping cart application, follow these steps:
 
-1. Visit the live demo [here]().
+1. Visit the live demo [here](https://creative-sundae-e9b64b.netlify.app/).
 2. Browse through the available products and click "Add to Cart" to add items to your cart.
 3. Observe the cart icon updating with the number of added products.
 4. Click on the cart icon to view and manage the items in your cart.
