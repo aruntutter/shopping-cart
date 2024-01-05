@@ -21,9 +21,13 @@
 
 The Shopping Cart project is a React-based application that enables users to add products to their cart, view the cart icon updating with each added product, and manage the quantity of items in the cart. The application also performs real-time total calculations for added items.
 
-## Screenshot
+## Screenshots
 
-![Screenshot](screenshots/screenshot1.png)
+Home
+![Screenshot](./src/assets/images/Screenshot-1.png)
+
+Cart
+![Screenshot](./src/assets/images/Screenshot-2.png)
 
 ## Demo
 
